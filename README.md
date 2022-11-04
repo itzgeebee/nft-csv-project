@@ -10,9 +10,10 @@ No external libraries are required.
 ## Usage
 1. Clone the repository
 2. Install python 3.6 or above if you don't have it already
-3. move the csv file to the project directory
+3. move the csv file to the project directory. This is very important, the script will not work if the csv file is not in the same directory as the script.
 4. run the script with the following command:
-``` python3 main.py ```
+``` python3 main.py ``` for linux and mac
+``` python main.py ``` for windows
 5. The csv file will be updated with the SHA256 of the json files and created in the project directory
 6. The CHIP-0007 compatible json file will be created in the `json files` directory
 

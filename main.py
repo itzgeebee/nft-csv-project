@@ -1,12 +1,24 @@
 import csv
 import json
 import hashlib
+import os
 
 hasher = hashlib.sha256()
 
-csv_file_path = 'HNGi9 CSV FILE - Sheet1.csv'
+csv_file_name = ''
+def check_file_exists() -> str:
+
+    file_name = input('Enter the name of the CSV file: ')
+    if os.path.exists(file_name):
+        print(file_name)
+        return file_name
+    print("please enter a valid file name")
+    check_file_exists()
+
+
 json_file_path = 'json files'
-new_csv_file_path = 'HNGi9CSV FILE-Sheet2.csv'
+csv_file_path = check_file_exists()
+new_csv_file_path = "output.csv"
 
 
 def format_attributes(attribs: str) -> list[dict[str, str]]:
