@@ -1,0 +1,51 @@
+{
+    "format": "CHIP-0007",
+    "series_number": "178",
+    "file_name": "2pac-the-remix",
+    "name": "2pac the remix",
+    "description": "2pac is alive in him because his style is exactly the same.",
+    "gender": "Male",
+    "attributes": [
+        {
+            "trait_type": "hair",
+            "value": " none"
+        },
+        {
+            "trait_type": " eyes",
+            "value": " blue iris"
+        },
+        {
+            "trait_type": " teeth",
+            "value": " gapped teeth"
+        },
+        {
+            "trait_type": " clothing",
+            "value": " Igbo clothing"
+        },
+        {
+            "trait_type": " expression",
+            "value": " surprised"
+        },
+        {
+            "trait_type": " accessories",
+            "value": " face cap"
+        },
+        {
+            "trait_type": " strength",
+            "value": " hardworking"
+        },
+        {
+            "trait_type": " weakness",
+            "value": "fear"
+        }
+    ],
+    "collection": {
+        "name": "HNGi9",
+        "id": "9993e5ec-2f31-485c-9c6d-f780c078ae56",
+        "attributes": []
+    },
+    "uuid": "9993e5ec-2f31-485c-9c6d-f780c078ae56",
+    "data": {
+        "example_data": "example_data"
+    }
+}
