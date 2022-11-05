@@ -9,7 +9,7 @@ csv_file_name = ''
 def check_file_exists() -> str:
 
     file_name = input('Enter the name of the CSV file: ')
-    if os.path.exists(file_name):
+    if os.path.exists(file_name) and file_name.endswith('.csv'):
         print(file_name)
         return file_name
     print("please enter a valid file name")
